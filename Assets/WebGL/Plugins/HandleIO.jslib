@@ -10,7 +10,7 @@ var HandleIO = {
         ReadFiles : function()
      {
          FS.syncfs(true,function (err) {
-             SendMessage('MyGameObject', 'FinishedSnycing');
+             // handle callback
          });
      }
 };
